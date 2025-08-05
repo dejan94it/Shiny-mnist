@@ -4,7 +4,7 @@ This is a simple and interactive **Shiny App** for handwritten digit recognition
 
 ## 📸 Preview
 
-![shinyapp_demo](preview.gif) <!-- Add a GIF or screenshot of your app here -->
+![shinyapp_demo](preview.png) <!-- Add a PNG screenshot of your app here -->
 
 ---
 
