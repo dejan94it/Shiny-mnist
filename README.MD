@@ -15,7 +15,7 @@ This is a simple and interactive **Shiny App** for handwritten digit recognition
   - Cropping
   - Resizing
   - Blurring and centering on a 28x28 canvas
-- Real-time prediction using a pre-trained CNN model
+- Real-time prediction using a pre-trained CNN model (code available)
 - Display of both preprocessed image and predicted digit
 
 ---
@@ -23,7 +23,7 @@ This is a simple and interactive **Shiny App** for handwritten digit recognition
 ## 🧠 Model
 
 The CNN model is trained on the **MNIST** dataset and saved in `.hdf5` format (`CNNmnist.hdf5`). Make sure the model file is placed in the root directory of the app.
-
+The code for training the model is available in the `computer vision in R with Keras.R` file.
 ---
 
 ## 📦 Dependencies
@@ -32,8 +32,7 @@ Install the required R packages:
 
 ```r
 install.packages("shiny")
+install.packages("shinyWidgets")
 install.packages("imager")
-# keras requires TensorFlow backend
-install.packages("keras")
-keras::install_keras()
+install.packages("keras") # keras requires TensorFlow backend so follow instructions
 ```

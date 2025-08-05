@@ -1,4 +1,6 @@
 library(keras)
+
+#first try
 mnist <- dataset_mnist()
 x_train <- mnist$train$x
 y_train <- mnist$train$y
@@ -46,7 +48,7 @@ predictions <- model %>% predict(x_test) %>% k_softmax()
 
 
 
-#CNN
+#CNN -> best model
 dim(x_train)
 img_rows <- 28
 img_cols <- 28
