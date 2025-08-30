@@ -11,7 +11,7 @@ process_image <- function(x, y) {
 
   n <- length(x)
   for (i in 2:n) {
-    if (!is.na(x[i - 1]) & !is.na(x[i]) & !is.na(y[i - 1]) & !is.na(y[i])) {
+    if (!is.na(x[i - 1]) && !is.na(x[i]) && !is.na(y[i - 1]) && !is.na(y[i])) {
       xs <- seq(x[i - 1], x[i], length.out = 20) * 2 # scala su 56x56
       ys <- seq(y[i - 1], y[i], length.out = 20) * 2
       for (j in seq_along(xs)) {

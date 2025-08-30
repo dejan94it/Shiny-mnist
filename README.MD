@@ -1,6 +1,6 @@
 # 🖊️ Shiny Digit Recognizer
 
-This is a simple and interactive **Shiny App** for handwritten digit recognition. 
+This is a simple and interactive **Shiny App** for handwritten digit recognition.
 
 It uses a **Convolutional Neural Network (CNN)** trained on the **MNIST** dataset via `keras`, allowing users to draw a digit directly in the UI and get a real-time prediction.
 
@@ -42,6 +42,7 @@ install.packages("keras") # keras requires TensorFlow backend so follow instruct
 ```
 
 ## ⚙️ How to run the app
+
 Just clone the repository and run the app:
 
 ```r
