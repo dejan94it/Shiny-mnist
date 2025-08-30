@@ -28,6 +28,7 @@ This project was developed a few years ago and recently rediscovered on my PC. S
 
 The CNN model is trained on the **MNIST** dataset and saved in `.hdf5` format (`CNNmnist.hdf5`). Make sure the model file is placed in the root directory of the app.
 The code for training the model is available in `computer vision in R with Keras.R`
+
 ---
 
 ## 📦 Dependencies
