@@ -1,4 +1,4 @@
-library(keras)
+library(keras3)
 
 #first try
 mnist <- dataset_mnist()
